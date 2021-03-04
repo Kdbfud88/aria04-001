@@ -1738,12 +1738,12 @@ class mainCog(commands.Cog):
 			for x, y in result.items():
 				join_member.append(f"{x}:{input_dict[f'{x}']}")
 				if y == "o":
-					win_member.append(f"{input_dict[f'{x}']}")
+					win_member.append(input_dict[f'{x}'])
 				else :
 					lose_member.append(f"{input_dict[f'{x}']}")
 
 			random.shuffle(win_member)
-			win_member = list(",".join(win_member))
+			win_member = list(" ".join(win_member))
 							   
 			embed = discord.Embed(title  = "🎲 사다리! 묻고 더블로 가!",
 				color=0x00ff00
