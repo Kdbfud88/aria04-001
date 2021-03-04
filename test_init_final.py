@@ -1738,7 +1738,7 @@ class mainCog(commands.Cog):
 			for x, y in result.items():
 				join_member.append(f"{x}:{input_dict[f'{x}']}")
 				if y == "o":
-					win_member.append(f'{x}')
+					win_member.append(f"{input_dict[f'{x}']}")
 				else :
 					lose_member.append(f"{input_dict[f'{x}']}")
 
