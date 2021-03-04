@@ -1685,7 +1685,7 @@ class mainCog(commands.Cog):
 			for i in range(len(ladder)):
 				input_dict[f"{i+1}"] = ladder[i]
 				if i < num_cong:
-					output_list.append(i+1)
+					output_list.append("")
 				else:
 					output_list.append("x")
 
@@ -1741,9 +1741,8 @@ class mainCog(commands.Cog):
 					win_member.append(f"{input_dict[f'{x}']}")
 				else :
 					lose_member.append(f"{input_dict[f'{x}']}")
-
-			
-							   
+			random.shuffle(win_member)
+			   
 			embed = discord.Embed(title  = "🎲 사다리! 묻고 더블로 가!",
 				color=0x00ff00
 				)
