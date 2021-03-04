@@ -2615,25 +2615,25 @@ class mainCog(commands.Cog):
 					elif result[i][1] == 20:
 						result[i][1] = ':keycap_twoten:'
 					elif result[i][1] == 21:
-						result[i][1] = ':keycap_twoten1:'
+						result[i][1] = ':keycap_twotenone:'
 					elif result[i][1] == 22:
-						result[i][1] = ':keycap_twoten2:'
+						result[i][1] = ':keycap_twotentwo:'
 					elif result[i][1] == 23:
-						result[i][1] = ':keycap_twoten3:'
+						result[i][1] = ':keycap_twotenthird:'
 					elif result[i][1] == 24:
-						result[i][1] = ':keycap_twoten4:'
+						result[i][1] = ':keycap_twotenfour:'
 					elif result[i][1] == 25:
-						result[i][1] = ':keycap_twoten5:'
+						result[i][1] = ':keycap_twotenfive:'
 					elif result[i][1] == 26:
-						result[i][1] = ':keycap_twoten6:'
+						result[i][1] = ':keycap_twotensix:'
 					elif result[i][1] == 27:
-						result[i][1] = ':keycap_twoten7:'
+						result[i][1] = ':keycap_twotenseven:'
 					elif result[i][1] == 28:
-						result[i][1] = ':keycap_twoten8:'
+						result[i][1] = ':keycap_twoteneight:'
 					elif result[i][1] == 29:
-						result[i][1] = ':keycap_twoten9:'
+						result[i][1] = ':keycap_twotennine:'
 					elif result[i][1] == 30:
-						result[i][1] = ':keycap_3ten:'
+						result[i][1] = ':keycap_thirdten:'
 					else:
 						result[i][1] = ':x:'
 					result_str += result[i][1] + "  " + result[i][0] + "  "
