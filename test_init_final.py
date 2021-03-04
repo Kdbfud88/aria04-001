@@ -1685,7 +1685,7 @@ class mainCog(commands.Cog):
 			for i in range(len(ladder)):
 				input_dict[f"{i+1}"] = ladder[i]
 				if i < num_cong:
-					output_list.append("O")
+					output_list.append("o")
 				else:
 					output_list.append("x")
 
