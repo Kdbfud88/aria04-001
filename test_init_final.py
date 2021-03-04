@@ -2500,7 +2500,7 @@ class mainCog(commands.Cog):
 				await ctx.send('레이스 인원이 2명보다 작습니다.')
 				return
 			elif len(racing_member) >= 30:
-				await ctx.send('레이스 인원이 12명 초과입니다.')
+				await ctx.send('레이스 인원이 30명 초과입니다.')
 				return
 			else :
 				race_val = random.sample(range(tmp_race_tab, tmp_race_tab+len(racing_member)), len(racing_member))
@@ -2590,45 +2590,45 @@ class mainCog(commands.Cog):
 					elif result[i][1] == 10:
 						result[i][1] = ':keycap_ten:'
 					elif result[i][1] == 11:
-						result[i][1] = ':keycap_tenone:'
+						result[i][1] = '11'
 					elif result[i][1] == 12:
-						result[i][1] = ':keycap_tentwo:'
+						result[i][1] = '12'
 					elif result[i][1] == 13:
 						result[i][1] = '13'
 					elif result[i][1] == 14:
-						result[i][1] = ':keycap_tenfour:'
+						result[i][1] = '14'
 					elif result[i][1] == 15:
-						result[i][1] = ':keycap_tenfive:'
+						result[i][1] = '15'
 					elif result[i][1] == 16:
-						result[i][1] = ':keycap_tensix:'
+						result[i][1] = '16'
 					elif result[i][1] == 17:
-						result[i][1] = ':keycap_tenseven:'
+						result[i][1] = '17'
 					elif result[i][1] == 18:
-						result[i][1] = ':keycap_teneight:'
+						result[i][1] = '18'
 					elif result[i][1] == 19:
-						result[i][1] = ':keycap_tennine:'
+						result[i][1] = '19'
 					elif result[i][1] == 20:
-						result[i][1] = ':keycap_twoten:'
+						result[i][1] = '20'
 					elif result[i][1] == 21:
-						result[i][1] = ':keycap_twotenone:'
+						result[i][1] = '21'
 					elif result[i][1] == 22:
-						result[i][1] = ':keycap_twotentwo:'
+						result[i][1] = '22'
 					elif result[i][1] == 23:
-						result[i][1] = ':keycap_twotenthird:'
+						result[i][1] = '23'
 					elif result[i][1] == 24:
-						result[i][1] = ':keycap_twotenfour:'
+						result[i][1] = '24'
 					elif result[i][1] == 25:
-						result[i][1] = ':keycap_twotenfive:'
+						result[i][1] = '25'
 					elif result[i][1] == 26:
-						result[i][1] = ':keycap_twotensix:'
+						result[i][1] = '26'
 					elif result[i][1] == 27:
-						result[i][1] = ':keycap_twotenseven:'
+						result[i][1] = '27'
 					elif result[i][1] == 28:
-						result[i][1] = ':keycap_twoteneight:'
+						result[i][1] = '28'
 					elif result[i][1] == 29:
-						result[i][1] = ':keycap_twotennine:'
+						result[i][1] = '29'
 					elif result[i][1] == 30:
-						result[i][1] = ':keycap_thirdten:'
+						result[i][1] = '30'
 					else:
 						result[i][1] = ':x:'
 					result_str += result[i][1] + "  " + result[i][0] + "  "
