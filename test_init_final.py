@@ -1743,7 +1743,7 @@ class mainCog(commands.Cog):
 					lose_member.append(f"{input_dict[f'{x}']}")
 
 			random.shuffle(win_member)
-			win_member = list(" ".join(win_member))
+			win_member = list(",".join(win_member))
 							   
 			embed = discord.Embed(title  = "🎲 사다리! 묻고 더블로 가!",
 				color=0x00ff00
