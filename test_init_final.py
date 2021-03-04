@@ -1701,6 +1701,7 @@ class mainCog(commands.Cog):
 				ladder_description.append(tmp_list)
 
 			tmp_result = list(input_dict.keys())
+			
 			input_data : str = ""
 
 			for i in range(len(tmp_result)):
