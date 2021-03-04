@@ -2530,11 +2530,8 @@ class mainCog(commands.Cog):
 					output +=  str_racing_field[i] + '\n'
 
 				result_race = await ctx.send(output + ':traffic_light: 3초 후 경주가 시작됩니다!')
-				await asyncio.sleep(1)
 				await result_race.edit(content = output + ':traffic_light: 2초 후 경주가 시작됩니다!')
-				await asyncio.sleep(1)
 				await result_race.edit(content = output + ':traffic_light: 1초 후 경주가 시작됩니다!')
-				await asyncio.sleep(1)
 				await result_race.edit(content = output + ':checkered_flag:  경주 시작!')								
 
 				for i in range(len(racing_member)):
@@ -2556,9 +2553,7 @@ class mainCog(commands.Cog):
 						racing_field[i][random_pos[i][j]], racing_field[i][temp_pos] = racing_field[i][temp_pos], racing_field[i][random_pos[i][j]]
 						cur_pos[i] = random_pos[i][j]
 						str_racing_field.append("".join(racing_field[i]))
-
-					await asyncio.sleep(0.1) 
-
+					
 					for i in range(len(racing_member)):
 						output +=  str_racing_field[i] + '\n'
 					
@@ -2639,7 +2634,7 @@ class mainCog(commands.Cog):
 					result_str += result[i][1] + "  " + result[i][0] + "  "
 					
 				#print(result)
-				await asyncio.sleep(0.1)
+			
 				return await result_race.edit(content = output + ':tada: 경주 종료!\n' + result_str)
 		else:
 			return
