@@ -2599,7 +2599,7 @@ class mainCog(commands.Cog):
 					elif result[i][1] == 12:
 						result[i][1] = ':keycap_tentwo:'
 					elif result[i][1] == 13:
-						result[i][1] = ':keycap_tenthird:'
+						result[i][1] = '13'
 					elif result[i][1] == 14:
 						result[i][1] = ':keycap_tenfour:'
 					elif result[i][1] == 15:
