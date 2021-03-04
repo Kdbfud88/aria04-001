@@ -2499,7 +2499,7 @@ class mainCog(commands.Cog):
 			if len(racing_member) <= 1:
 				await ctx.send('레이스 인원이 2명보다 작습니다.')
 				return
-			elif len(racing_member) >= 13:
+			elif len(racing_member) >= 30:
 				await ctx.send('레이스 인원이 12명 초과입니다.')
 				return
 			else :
@@ -2594,6 +2594,46 @@ class mainCog(commands.Cog):
 						result[i][1] = ':nine:'
 					elif result[i][1] == 10:
 						result[i][1] = ':keycap_ten:'
+					elif result[i][1] == 11:
+						result[i][1] = ':keycap_tenone:'
+					elif result[i][1] == 12:
+						result[i][1] = ':keycap_tentwo:'
+					elif result[i][1] == 13:
+						result[i][1] = ':keycap_tenthird:'
+					elif result[i][1] == 14:
+						result[i][1] = ':keycap_tenfour:'
+					elif result[i][1] == 15:
+						result[i][1] = ':keycap_tenfive:'
+					elif result[i][1] == 16:
+						result[i][1] = ':keycap_tensix:'
+					elif result[i][1] == 17:
+						result[i][1] = ':keycap_tenseven:'
+					elif result[i][1] == 18:
+						result[i][1] = ':keycap_teneight:'
+					elif result[i][1] == 19:
+						result[i][1] = ':keycap_tennine:'
+					elif result[i][1] == 20:
+						result[i][1] = ':keycap_twoten:'
+					elif result[i][1] == 21:
+						result[i][1] = ':keycap_twoten1:'
+					elif result[i][1] == 22:
+						result[i][1] = ':keycap_twoten2:'
+					elif result[i][1] == 23:
+						result[i][1] = ':keycap_twoten3:'
+					elif result[i][1] == 24:
+						result[i][1] = ':keycap_twoten4:'
+					elif result[i][1] == 25:
+						result[i][1] = ':keycap_twoten5:'
+					elif result[i][1] == 26:
+						result[i][1] = ':keycap_twoten6:'
+					elif result[i][1] == 27:
+						result[i][1] = ':keycap_twoten7:'
+					elif result[i][1] == 28:
+						result[i][1] = ':keycap_twoten8:'
+					elif result[i][1] == 29:
+						result[i][1] = ':keycap_twoten9:'
+					elif result[i][1] == 30:
+						result[i][1] = ':keycap_3ten:'
 					else:
 						result[i][1] = ':x:'
 					result_str += result[i][1] + "  " + result[i][0] + "  "
